@@ -197,16 +197,6 @@ main {
 	z-index: 10;
 }
 
-.ba-span{
-	display: inline-block;
-}
-.ba-span__box{
-	width: 67px;
-	height: 21px;
-	background-color: #7beec7;
-	transform: translateY(115%);
-	position: absolute;
-}
 
 .ba-about__column h3{
 	font-size: 14px;
@@ -405,4 +395,14 @@ main {
 .ba-footer__send:hover{
 	box-shadow: 0 0 15px rgba(0,0,0,0.5);
 	color: #60606e;
+}
+
+.ba-header__mark:before{
+	content: "";
+	width: 67px;
+	height: 21px;
+	background-color: #7beec7;
+	transform: translateY(115%);
+	position: absolute;
+	z-index: -1;
 }
