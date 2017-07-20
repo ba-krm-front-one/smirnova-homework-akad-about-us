@@ -1,0 +1,410 @@
+a{
+	text-decoration: none;
+	color: #60606e;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+body{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #60606e;
+	display: flex;
+	flex-direction: column;
+}
+
+.ba-header{
+	background: url("../akad_about-us-assets/haeder-backgr.png") no-repeat;
+	background-size: cover;
+	padding: 40px 65px 160px;
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 1;
+	flex-grow: 1;
+}
+
+.ba-header__menu-logo{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 190px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+
+.ba-header__menu {
+	background: url("../akad_about-us-assets/menu.png") no-repeat;
+	width: 31px;
+	height: 15px;
+}
+
+.ba-header__menu:hover{
+	transform: scale(1.1);
+}
+
+.ba-header__about-us{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.ba-header__about-us h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.ba-header__navigation{
+	margin-top: 20px;
+}
+
+.ba-header__navigation ul{
+	font-size: 0;
+	list-style: none;
+	padding-left: 0;
+}
+
+.ba-header__navigation ul li{
+	display: inline-block;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.ba-header__navigation ul li a:hover{
+	color: deepskyblue;
+	border-bottom: solid 1px deepskyblue;
+}
+
+.ba-header__navigation ul li:not(:last-child):after{
+	content: "/";
+	padding: 5px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+.ba-container__flex{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1170px;
+	justify-content: center;
+}
+
+.ba-main__about{
+	margin: 140px 0;
+	align-self: center;
+}
+
+.ba-column{
+	flex-grow: 1;
+	flex-shrink: 1;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.ba-about__column{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: 585px;
+	position: relative;
+}
+
+.ba-about__column h1,
+.ba-benefits__header  h1,
+.ba-team__header h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	line-height: 48px;
+	position: relative;
+	z-index: 10;
+	margin-bottom: 15px;
+}
+
+
+.ba-about__column h3{
+	font-size: 14px;
+	font-weight: 800;
+	margin:  30px 0;
+	text-transform: uppercase;
+}
+
+.ba-about__column p{
+	line-height: 30px;
+}
+
+
+.ba-main__benefits,
+.ba-main__team{
+	align-self: center;
+}
+
+.ba-benefits__header,
+.ba-team__header {
+	text-align: center;
+	margin-bottom: 100px;
+	position: relative;
+}
+
+.ba-benefits__header  p,
+.ba-team__header p{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.ba-benefits__items{
+	max-width: 390px;
+	padding-bottom: 50px;
+}
+
+.ba-benefits__items h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 48px;
+	text-transform: uppercase;
+}
+
+.ba-benefits__items h3:before{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-color: #7beec7;
+	margin-right: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ba-benefits__items:first-child h3:before{
+	content: url("../akad_about-us-assets/iphone.png");
+}
+
+.ba-benefits__items:nth-child(2) h3:before{
+	content: url("../akad_about-us-assets/unlimited-options.png");
+	line-height: 40px;
+}
+
+.ba-benefits__items:nth-child(3) h3:before{
+	content: url("../akad_about-us-assets/wordpress.png");
+}
+
+.ba-benefits__items:nth-child(4) h3:before{
+	content: url("../akad_about-us-assets/e-commerce.png");
+}
+
+.ba-benefits__items:nth-child(5) h3:before{
+	content: url("../akad_about-us-assets/customizable.png");
+}
+
+.ba-benefits__items:nth-child(6) h3:before{
+	content: url("../akad_about-us-assets/support.png");
+}
+.ba-benefits__items p{
+	line-height: 30px;
+}
+
+.ba-main__team{
+	margin-top: 120px;
+}
+.ba-team__items{
+	margin-bottom: 30px;
+	max-width: 292px;
+}
+
+.ba-team__items img:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.ba-footer{
+	background: #7beec7;
+	padding: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.ba-footer__column{
+	/*flex-grow: 1;
+	flex-shrink: 1;*/
+	max-width: 585px;
+	justify-content: center;
+	padding-left: 25px;
+}
+
+.ba-footer__column h2 {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	line-height: 48px;
+	text-transform: uppercase;
+}
+
+.ba-footer__column a {
+	text-align: center;
+	display: block;
+	color: #7beec7;
+	width: 165px;
+	height: 49px;
+	background-color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	line-height: 49px;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+.ba-footer__column a:hover{
+	box-shadow: 0 0 15px rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.5);
+	color: #60606e;
+	border: 1px solid #ffffff;
+}
+
+.ba-footer__column--bg{
+	background: #ffffff;
+	padding: 20px 25px;
+}
+
+.ba-footer__column--bg h2{
+	color: #60606e;
+	font-size: 24px;
+	line-height: 36px;
+	max-width: 336px;
+}
+
+.ba-footer__column--bg p{
+	color: #999999;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.ba-footer__vvod{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.ba-footer__email{
+	max-width: 510px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	min-width: 155px;
+	height: 50px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-right: none;
+	background-color: #ffffff;
+	outline: none;
+	color: rgba(0, 0, 0, 0.6);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+.ba-footer__send{
+	height: 50px;
+	background-color: #7beec7;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	flex-grow: 1;
+	flex-shrink: 1;
+	min-width: 155px;
+	border: none;
+	outline: none;
+}
+
+.ba-footer__send:hover{
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	color: #60606e;
+}
+
+.ba-header__mark:before{
+	content: "";
+	width: 67px;
+	height: 21px;
+	background-color: #7beec7;
+	transform: translateY(115%);
+	position: absolute;
+	z-index: -1;
+}
+

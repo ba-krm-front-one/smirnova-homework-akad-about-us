@@ -1,0 +1,20 @@
+Index: css/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- css/style.css	(date 1488572384000)
++++ css/style.css	(revision )
+@@ -195,6 +195,7 @@
+ 	line-height: 48px;
+ 	position: relative;
+ 	z-index: 10;
++	margin-bottom: 15px;
+ }
+ 
+ 
+@@ -406,3 +407,4 @@
+ 	position: absolute;
+ 	z-index: -1;
+ }
++
